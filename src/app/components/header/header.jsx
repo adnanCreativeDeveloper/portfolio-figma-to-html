@@ -41,7 +41,7 @@ function Header() {
             ${toggleNavItem ? "h-[306px]" : "h-0 opacity-0 sm:opacity-100"}`}>
             <li className='lg:px-1 cursor-pointer hover:text-white text-primary lg:w-auto w-full'>
               <a href='#yourNameHere' className='py-3 px-3 inline-block w-full'>
-                Home
+              Home
               </a>
             </li>
             <li className='lg:px-1 cursor-pointer hover:text-white text-primary lg:w-auto w-full'>
