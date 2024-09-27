@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../common/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 function IntroSection() {
   return (
@@ -28,7 +29,7 @@ function IntroSection() {
         </div>
         <div className='w-full md:w-1/2 flex items-center justify-center lg:justify-end order-1 lg:order-2 mb-7'>
           <div className='w-72 h-72 md:h-80 md:w-80 rounded-full overflow-hidden'>
-            <img
+            <Image
               src='images/user-png.avif'
               alt='User img'
               className='shrink-0'

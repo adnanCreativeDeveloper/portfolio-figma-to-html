@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import Button from "../common/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 function ProjectSlider({ slider_arr }) {
   const [isBeginning, setIsBeginning] = useState(true);
@@ -50,7 +51,7 @@ function ProjectSlider({ slider_arr }) {
         {slider_arr.map((item, index) => (
           <SwiperSlide key={index}>
             <div className='flex flex-col bg-white'>
-              <img
+              <Image
                 className='w-full h-auto rounded-t-xl'
                 src={item.img_url}
                 alt={item.alt}

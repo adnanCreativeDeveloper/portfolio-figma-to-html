@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../common/button";
 import RoundedPill from "../common/rounded-pill";
+import Image from "next/image";
 
 const work_items = [
   {
@@ -80,7 +81,7 @@ function CaseStudyShowcase() {
                 className={`rounded-md overflow-hidden w-full md:w-1/2 ${
                   index === 1 ? "md:order-1 order-2" : ""
                 }`}>
-                <img src={item.image} className='w-full' alt='work sample' />
+                <Image src={item.image} className='w-full' alt='work sample' />
               </div>
             </div>
           ))}

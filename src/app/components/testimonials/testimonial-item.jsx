@@ -2,7 +2,7 @@ import React from "react";
 
 function TestimonialItem({ testimonial }) {
   return testimonial.map((item) => (
-    <div className='relative'>
+    <div key={item.id} className='relative'>
       <span className='font-raleway text-8xl absolute -top-6 left-2'>“</span>
       <div className='py-6 px-6 rounded-md border border-neutral'>
         <div className='hidden md:block absolute top-0 right-0 w-full h-full bg-gradient-to-r from-base/0 to-base rounded-md'></div>

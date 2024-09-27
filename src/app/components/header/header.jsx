@@ -14,7 +14,7 @@ function Header() {
     const handleClick = (event) => {
       if (!event.target.closest(".nav-dropdown")) {
         console.log("Clicked outside the dropdown");
-        setToggleNavItem(false); // Close the dropdown
+        setToggleNavItem(false);
       } else {
         event.stopPropagation()
       }

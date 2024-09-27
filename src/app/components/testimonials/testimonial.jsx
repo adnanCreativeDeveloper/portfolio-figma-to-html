@@ -5,28 +5,28 @@ import TestimonialItem from "./testimonial-item";
 
 const testimonial = [
   {
-    id: "",
+    id: "testimonial_1",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     name: "Client Name",
     img_ulr: "images/testimonial-images/testimonial-1.png",
     alt: "Author Img",
   },
   {
-    id: "",
+    id: "testimonial_2",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     name: "Client Name",
     img_ulr: "images/testimonial-images/testimonial-2.png",
     alt: "Author Img",
   },
   {
-    id: "",
+    id: "testimonial_3",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     name: "Client Name",
     img_ulr: "images/testimonial-images/testimonial-3.png",
     alt: "Author Img",
   },
   {
-    id: "",
+    id: "testimonial_4",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     name: "Client Name",
     img_ulr: "images/testimonial-images/testimonial-4.png",
