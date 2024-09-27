@@ -61,16 +61,40 @@ function CaseStudyShowcase() {
                 }`}>
                 <RoundedPill
                   text={item.category}
-                  textColor={`text-${item.buttonColor}-500`}
-                  bg={`bg-${item.buttonColor}-100`}
+                  textColor={`${
+                    item.buttonColor === "orange"
+                      ? "text-orange-500"
+                      : item.buttonColor === "blue"
+                      ? "text-blue-500"
+                      : "text-emerald-500"
+                  }`}
+                  bg={`${
+                    item.buttonColor === "orange"
+                      ? "bg-orange-100"
+                      : item.buttonColor === "blue"
+                      ? "bg-blue-100"
+                      : "bg-emerald-100"
+                  }`}
                 />
                 <h1 className='font-raleway text-black text-2xl font-extrabold pt-4'>
                   {item.title}
                 </h1>
                 <p className='text-primary pt-4 pb-10'>{item.description}</p>
                 <Button
-                  bg={`bg-${item.buttonColor}-400`}
-                  bgHover={`hover:bg-${item.buttonColor}-500`}
+                  bg={`${
+                    item.buttonColor === "orange"
+                      ? "bg-orange-400"
+                      : item.buttonColor === "blue"
+                      ? "bg-blue-700"
+                      : "bg-emerald-500"
+                  }`}
+                  bgHover={`${
+                    item.buttonColor === "orange"
+                      ? "hover:bg-orange-500"
+                      : item.buttonColor === "blue"
+                      ? "hover:bg-blue-800"
+                      : "hover:bg-emerald-600"
+                  }`}
                   text={item.buttonText}
                 />
               </div>
