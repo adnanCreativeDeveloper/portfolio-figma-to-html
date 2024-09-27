@@ -16,7 +16,7 @@ function IntroSection() {
             Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
           </p>
-          <a href='#getInTouch'>
+          <a href='#getIn-touch'>
             <button
               className={`mb-7 py-4 px-10 md:w-80 bg-lime-600 hover:bg-lime-800 group rounded-md mt-5 drop-shadow-2xl shadow-accent duration-200 active:scale-95`}>
               Let’s get started{" "}
