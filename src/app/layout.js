@@ -5,7 +5,7 @@ export const metadata = {
   title: "Landing page",
   description: "Converted from figma to html",
   icons: {
-    icon: "/images/logo/logo.png", // Add the favicon path here
+    icon: "/images/logo/logo.png",
   },
 };
 
