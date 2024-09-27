@@ -51,7 +51,9 @@ function ProjectSlider({ slider_arr }) {
         {slider_arr.map((item, index) => (
           <SwiperSlide key={index}>
             <div className='flex flex-col bg-white'>
-              <Image
+              <img
+                width={451}
+                height={279}
                 className='w-full h-auto rounded-t-xl'
                 src={item.img_url}
                 alt={item.alt}

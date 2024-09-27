@@ -30,7 +30,9 @@ function IntroSection() {
         <div className='w-full md:w-1/2 flex items-center justify-center lg:justify-end order-1 lg:order-2 mb-7'>
           <div className='w-72 h-72 md:h-80 md:w-80 rounded-full overflow-hidden'>
             <Image
-              src='images/user-png.avif'
+              src='/images/user-png.avif'
+              width={320}
+              height={320}
               alt='User img'
               className='shrink-0'
             />

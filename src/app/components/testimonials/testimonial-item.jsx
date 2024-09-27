@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function TestimonialItem({ testimonial }) {
@@ -10,7 +11,7 @@ function TestimonialItem({ testimonial }) {
           <p className='pb-10 text-primary'>{item.text}</p>
           <div className='flex items-center gap-5'>
             <div className='h-12 w-12 rounded-full overflow-hidden'>
-              <img src={item.img_ulr} alt={item.alt} className='w-full' />
+              <Image height={48} width={48} src={item.img_ulr} alt={item.alt} className='w-full' />
             </div>
             <h3 className='text-white font-bold font-raleway text-lg'>
               {item.name}

@@ -12,8 +12,7 @@ const work_items = [
     category: "Design",
     buttonText: "View case study",
     buttonColor: "orange",
-    image: "images/case-study-images/case-study-1.png",
-    class: "",
+    image: "/images/case-study-images/case-study-1.png",
   },
   {
     id: "2work_items",
@@ -23,8 +22,7 @@ const work_items = [
     category: "UIUX",
     buttonText: "View case study",
     buttonColor: "blue",
-    image: "images/case-study-images/case-study-2.png",
-    class: "",
+    image: "/images/case-study-images/case-study-2.png",
   },
   {
     id: "3work_items",
@@ -34,8 +32,7 @@ const work_items = [
     category: "Branding",
     buttonText: "View case study",
     buttonColor: "emerald",
-    image: "images/case-study-images/case-study-3.png",
-    class: "",
+    image: "/images/case-study-images/case-study-3.png",
   },
 ];
 
@@ -81,7 +78,13 @@ function CaseStudyShowcase() {
                 className={`rounded-md overflow-hidden w-full md:w-1/2 ${
                   index === 1 ? "md:order-1 order-2" : ""
                 }`}>
-                <Image src={item.image} className='w-full' alt='work sample' />
+                <Image
+                  height={451}
+                  width={304}
+                  src={item.image}
+                  className='w-full'
+                  alt='work sample'
+                />
               </div>
             </div>
           ))}

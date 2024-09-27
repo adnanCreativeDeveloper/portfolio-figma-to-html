@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 
 function Header() {
-  const [toggleNavItem, setToggleNavItem] = useState(true);
+  const [toggleNavItem, setToggleNavItem] = useState(false);
   useEffect(() => {
     const handleClick = (event) => {
       if (!event.target.closest(".nav-dropdown")) {
