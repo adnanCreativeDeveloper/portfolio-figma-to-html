@@ -39,7 +39,7 @@ const work_items = [
 
 function CaseStudyShowcase() {
   return (
-    <div className='bg-white py-16 px-4 lg:px-0' id='caseStudies'>
+    <div className='bg-white py-16 px-4 lg:px-0' id='case-studies'>
       <div className='w-full lg:w-2/3 mx-auto'>
         <div className='text-center w-full md:w-3/5 mx-auto'>
           <h1 className='font-raleway text-black text-4xl font-extrabold pb-7'>

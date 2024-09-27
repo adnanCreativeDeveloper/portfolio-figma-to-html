@@ -5,7 +5,7 @@ import ClientContactForm from "./ClientContactForm";
 
 function GetInTouch() {
   return (
-    <div className='bg-base pt-16 px-4 lg:px-0' id="getInTouch">
+    <div className='bg-base pt-16 px-4 lg:px-0' id="getIn-touch">
       <div className='w-full lg:w-2/3 mx-auto'>
         <div className='text-center w-full md:w-3/5 mx-auto'>
           <h1 className='font-raleway text-white text-4xl font-extrabold pb-7'>
